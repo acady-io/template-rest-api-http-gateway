@@ -1,7 +1,6 @@
 {
   "name": "template-rest-api-http-gateway",
   "version": "1.0.0",
-  "private": true,
   "description": "Rest API Http Gateway Template",
   "main": "./build/index.js",
   "files": [
@@ -22,6 +21,6 @@
     "url": "https://github.com/acady-io/template-rest-api-http-gateway.git"
   },
   "dependencies": {
-    "acady-api-builder": "^1.0.0"
+    "acady-api-builder": "^1.2.2"
   }
 }
