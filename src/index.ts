@@ -1,6 +1,10 @@
 // DO NOT MODIFY THIS FILE
 // Use api.ts for implementing your API logic
+
+import api from "./api";
+
 export async function handler(event) {
-    const apiBuilder = require('./api');
-    return await apiBuilder.process(event, 'AWS_GATEWAY_HTTP');
+    const response = {};
+    await api.process(event, response,'AWS_GATEWAY_HTTP');
+    return response;
 }
