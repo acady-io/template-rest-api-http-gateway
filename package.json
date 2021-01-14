@@ -21,6 +21,6 @@
     "url": "https://github.com/acady-io/template-rest-api-http-gateway.git"
   },
   "dependencies": {
-    "acady-api-builder": "^1.2.2"
+    "acady-api-builder": "^1.3.1"
   }
 }
